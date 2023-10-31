@@ -1,0 +1,6 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Bo', 'Ca chua', 'Cam', 'Oi', 'Ot chuong', 'Tao do', 'Tao xanh', 'Thanh long']

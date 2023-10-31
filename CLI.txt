@@ -1,0 +1,11 @@
+train mode:
+
+yolo task=detect mode=train model=yolov8l.pt data=data.yaml device=0 epochs=300 patience=50 name=yolov8_fruits_detection workers=4 batch=8
+
+resume:
+
+yolo task=detect mode=train model=runs\detect\yolov8_fruits_detection\weights\last.pt data=data.yaml device=0 workers=8 batch=8 resume=True
+
+predict:
+
+yolo task=detect mode=predict model=runs\detect\yolov8_fruits_detection\weights\best.pt source="test\images\4_bell_pepper_29.jpg" save=True show=True
