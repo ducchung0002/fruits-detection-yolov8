@@ -54,7 +54,7 @@ This is a project on fruit detection in images using the deep learning model YOL
 
 1. CLI
 
-    - `yolo task=detect mode=train model=yolov8l.pt data=data.yaml device=0 epochs=100 patience=50 name=yolov8_fruits_detection workers=8 batch=8``
+    - `yolo task=detect mode=train model=yolov8l.pt data=data.yaml device=0 epochs=100 patience=50 name=yolov8_fruits_detection workers=8 batch=8`
 
 <table style="width: 100%; border: 1px solid; border-collapse: collapse">
                         <caption><h4>where:</h4></caption>
