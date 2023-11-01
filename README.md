@@ -48,7 +48,8 @@ This is a project on fruit detection in images using the deep learning model YOL
 
     - Change directory to this project `cd path\to\this\project`
 
-- YOLOv8 model `pip install ultralytics`
+### YOLOv8 model 
+    pip install ultralytics
 
 ## Train
 
@@ -118,7 +119,7 @@ This is a project on fruit detection in images using the deep learning model YOL
 
     - `python train.py`
 
-    - ![train image](https://scontent.fdad3-5.fna.fbcdn.net/v/t1.15752-9/370098902_1403036000423826_5983942292507589961_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=DKk9_v06JTkAX_l2S_4&_nc_ht=scontent.fdad3-5.fna&oh=03_AdQHsoGo76vA_iq3YARFVr-XG_8T_umwbLGutROvjlAVQg&oe=656846CF)
+3. Result ![train image](https://scontent.fdad3-5.fna.fbcdn.net/v/t1.15752-9/370098902_1403036000423826_5983942292507589961_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=DKk9_v06JTkAX_l2S_4&_nc_ht=scontent.fdad3-5.fna&oh=03_AdQHsoGo76vA_iq3YARFVr-XG_8T_umwbLGutROvjlAVQg&oe=656846CF)
 
 ## Predict
 
